@@ -1,0 +1,94 @@
+nav{
+    background: rgb(0, 0, 0);
+}
+nav .navbar-brand{
+    font-family: 'Bitter', serif;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: aliceblue;
+    margin-left: 3rem;
+}
+
+nav .nav-link{
+    font-family: 'Bitter', serif;
+    color: aliceblue;
+}
+.row1 {
+    height: 50vh;
+    font-family: 'Bitter', serif;
+    background: linear-gradient(to bottom right, rgb(0, 0, 0),rgb(68, 64, 64));
+    color: aliceblue;
+    overflow-x: hidden;
+}
+.row{
+    margin-top: 3rem;
+}
+
+.collapse{
+    color: aliceblue;
+}
+.typewriter{
+    margin-top: 1.5rem;
+    display: inline-block;
+}
+.row1 .container .row  img:hover{
+    cursor: pointer;
+}
+/* .typewriter-text p{
+    display: block;
+    overflow: unset;
+    letter-spacing: 2px;
+    animation: typing 3.4s steps(30, end), blink .75s step-end infinite;
+    white-space: nowrap;
+    border-right: 4px solid red;
+    box-sizing: border-box;
+} */
+
+.par {
+    display: inline-block;
+}
+.par-text {
+    display: inline-block;
+    letter-spacing: 2px;
+    animation: typing 3.5s 3.4s steps(30, end) forwards, blink .75s step-end infinite;
+    border-right: 4px solid red;
+    white-space: nowrap;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+
+@keyframes typing {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 100%;
+    }
+}
+@keyframes blink {
+    from,
+    to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: red;
+    }
+}
+
+/* nav .navbar-brand p{
+    color: black;
+    margin-top: 0.2px;
+    margin-bottom: 0.3px;
+    padding-bottom: 0.4px;
+    border-bottom: 0px;
+}
+nav .navbar-brand{
+    display: flex;
+    align-items: center
+}
+nav .navbar-brand .wrap{
+    margin-left: 7px;
+} */
