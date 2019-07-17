@@ -10,7 +10,9 @@ nav .navbar-brand{
     color: aliceblue;
     margin-left: 3rem;
 }
-
+.container{
+   font-family: 'Bitter', serif; 
+}
 nav .nav-link{
     font-family: 'Bitter', serif;
     color: aliceblue;
