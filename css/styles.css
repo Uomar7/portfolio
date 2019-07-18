@@ -22,12 +22,12 @@ nav .nav-link{
     font-family: 'Bitter', serif;
     background: linear-gradient(to bottom right, rgb(0, 0, 0),rgb(68, 64, 64));
     color: aliceblue;
+    /* * align-items: center;  */
     overflow-x: hidden;
 }
 .row{
     margin-top: 3rem;
 }
-
 .collapse{
     color: aliceblue;
 }
@@ -38,6 +38,7 @@ nav .nav-link{
 .row1 .container .row  img:hover{
     cursor: pointer;
 }
+
 /* .typewriter-text p{
     display: block;
     overflow: unset;
