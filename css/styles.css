@@ -1,97 +1,104 @@
-nav{
-    background: rgb(0, 0, 0);
+* {
+    font-family: 'Nunito', sans-serif;
 }
-nav .navbar-brand{
-    font-family: 'Bitter', serif;
-    display: flex;
-    align-items: center;
-    font-size: 18px;
-    letter-spacing: 2px;
-    color: aliceblue;
-    margin-left: 3rem;
+nav {
+    position: static;
 }
-.container{
-   font-family: 'Bitter', serif; 
-}
-nav .nav-link{
-    font-family: 'Bitter', serif;
-    color: aliceblue;
-}
-.row1 {
-    height: 50vh;
-    font-family: 'Bitter', serif;
-    background: linear-gradient(to bottom right, rgb(0, 0, 0),rgb(68, 64, 64));
-    color: aliceblue;
-    /* * align-items: center;  */
-    overflow-x: hidden;
-}
-.row{
-    margin-top: 3rem;
-}
-.collapse{
-    color: aliceblue;
-}
-.typewriter{
-    margin-top: 1.5rem;
-    display: inline-block;
-}
-.row1 .container .row  img:hover{
-    cursor: pointer;
+header,
+.intro{
+    background: url('https://images.wallpaperscraft.com/image/laptop_room_on_the_desk_keyboard_mouse_apple_window_interior_73963_1280x720.jpg');
+    background-position: center center;
+    background-size: cover;
 }
 
-/* .typewriter-text p{
-    display: block;
-    overflow: unset;
-    letter-spacing: 2px;
-    animation: typing 3.4s steps(30, end), blink .75s step-end infinite;
-    white-space: nowrap;
-    border-right: 4px solid red;
-    box-sizing: border-box;
+nav a {
+    font-family: 'Blinker', sans-serif;
+    font-weight: 500;
+    letter-spacing: 3px;
+    text-decoration: none;
+    color: #F7F7FF;
+    opacity: .7;
+    position: static;
+}
+
+nav a:hover {
+    color: black  ;
+    text-decoration: none;
+    opacity: 1; 
+    font-weight: 600;
+    transition: .1s;
+}
+
+#int {
+    transform: translateY(25vh);
+    text-align: center;
+}
+
+#int h3 {
+    font-size: 3.4em;
+    font-weight: 800;
+    text-align: center;
+}
+
+#int p {
+    font-size: 400;
+    font-size: 1.5em;
+    text-align: center;
+    text-align: center;
+}
+
+#int img {
+    margin: 0 30%;
+}
+
+.btn{
+    border-radius: 20px;
+    padding: 3px 9px;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    text-transform: capitalize;
+    color: rgb(0, 0, 0);
+    opacity: .8;
+    background: #F7F7FF;
+}
+.btn:hover{
+    opacity: 1;
+    transition: .1s;
+    font-weight: 600;
+}
+
+.intro {
+    top: 0;
+    bottom: 0;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    color: #F7F7FF;
+}
+.projects {
+    background: #F7F7FF;
+}
+
+.projects h3 {
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 900;
+    padding: .6rem 0;
+    letter-spacing: 4px;
+}
+
+#projects .row {
+    top: 0;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 1.3em;
+}
+
+
+/* body{
+    background: url('https://images.wallpaperscraft.com/image/laptop_room_on_the_desk_keyboard_mouse_apple_window_interior_73963_1280x720.jpg');
+    background-position: center center;
+    background-size: cover;
 } */
 
-.par {
-    display: inline-block;
-}
-.par-text {
-    display: inline-block;
-    letter-spacing: 2px;
-    animation: typing 3.5s 3.4s steps(30, end) forwards, blink .75s step-end infinite;
-    border-right: 4px solid red;
-    white-space: nowrap;
-    box-sizing: border-box;
-    overflow: hidden;
-}
-
-
-@keyframes typing {
-    from {
-        width: 0%;
-    }
-    to {
-        width: 100%;
-    }
-}
-@keyframes blink {
-    from,
-    to {
-        border-color: transparent;
-    }
-    50% {
-        border-color: red;
-    }
-}
-
-/* nav .navbar-brand p{
-    color: black;
-    margin-top: 0.2px;
-    margin-bottom: 0.3px;
-    padding-bottom: 0.4px;
-    border-bottom: 0px;
-}
-nav .navbar-brand{
-    display: flex;
-    align-items: center
-}
-nav .navbar-brand .wrap{
-    margin-left: 7px;
-} */
