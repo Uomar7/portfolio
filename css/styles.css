@@ -75,6 +75,7 @@ nav a:hover {
     height: 100vh;
     color: #F7F7FF;
 }
+
 .projects {
     background: #F7F7FF;
 }
@@ -92,6 +93,11 @@ nav a:hover {
     bottom: 0;
     margin: 0;
     padding: 0;
+    /* margin-bottom: 1.3em; */
+    padding-bottom: 1em;
+}
+
+#projects1{
     margin-bottom: 1.3em;
 }
 
@@ -117,6 +123,18 @@ nav a:hover {
 
 .carousel-item .row {
     height: 40vh;
+}
+
+.contacts {
+    background: #F7F7FF;
+}
+
+.contacts h3 {
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 900;
+    padding: .6rem 1em;;
+    letter-spacing: 4px;
 }
 
 /* body{
