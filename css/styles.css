@@ -83,7 +83,7 @@ nav a:hover {
     text-align: center;
     text-transform: capitalize;
     font-weight: 900;
-    padding: .6rem 0;
+    padding: .6rem 1em;;
     letter-spacing: 4px;
 }
 
@@ -95,6 +95,29 @@ nav a:hover {
     margin-bottom: 1.3em;
 }
 
+.skills {
+    background: #F7F7FF;
+}
+
+.skills h3 {
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 900;
+    padding: .6rem 1em;;
+    letter-spacing: 4px;
+}
+.carousel-item {
+    text-align: center;
+}
+
+.carousel-item img:hover {
+    transform: scale(1.1);
+    transition: .1s;
+}
+
+.carousel-item .row {
+    height: 40vh;
+}
 
 /* body{
     background: url('https://images.wallpaperscraft.com/image/laptop_room_on_the_desk_keyboard_mouse_apple_window_interior_73963_1280x720.jpg');
