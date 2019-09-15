@@ -20,12 +20,6 @@ nav {
     background-attachment: fixed;
 }
 
-.personal {
-    transform: translateY(28%);
-    /* border: solid 2px red; */
-    height: 50vh;
-    font-family: 'Nunito', sans-serif;
-}
 
 .profile {
     margin: 0 auto;
@@ -34,9 +28,18 @@ nav {
     padding-bottom: 0;
     display: flex;
     justify-content: center;
-    transform: translateY(43%);
+    transform: translateY(55%);
 }
 
+.personal {
+    transform: translateY(34%);
+    /* border: solid 2px red; */
+    height: 50vh;
+    font-family: 'Nunito', sans-serif;
+}
+.personal .container {
+    font-size: 20px;
+}
 .profile img {
     width: 250px;
 }
@@ -47,11 +50,11 @@ nav {
     border-bottom: 0;
     padding-bottom: 0;
     margin: 0;
-    font-weight: bold;
+    font-weight: bolder;
     letter-spacing: 3px;
     font-family: 'Nunito', sans-serif;
     letter-spacing: 5px;
-    font-size: 2rem;
+    font-size: 40px;
     line-height: 3rem;
 }
 
