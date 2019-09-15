@@ -2,20 +2,66 @@
     font-family: 'Nunito', sans-serif;
 }
 
-/* nav {
-    position: static;
-} */
 [my-name] {
     font-weight: bold;
     letter-spacing: 3px;
     font-family: 'Blinker', sans-serif;
 }
 
-header,
-.intro{
+nav {
     background: url('https://images.wallpaperscraft.com/image/laptop_room_on_the_desk_keyboard_mouse_apple_window_interior_73963_1280x720.jpg');
     background-position: center center;
     background-size: cover;
+}
+
+.intro {
+    background: url('https://images.wallpaperscraft.com/image/laptop_room_on_the_desk_keyboard_mouse_apple_window_interior_73963_1280x720.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.personal {
+    transform: translateY(28%);
+    /* border: solid 2px red; */
+    height: 50vh;
+    font-family: 'Nunito', sans-serif;
+}
+
+.profile {
+    margin: 0 auto;
+    /* border: solid blue 2px; */
+    margin-bottom: 0;
+    padding-bottom: 0;
+    display: flex;
+    justify-content: center;
+    transform: translateY(43%);
+}
+
+.profile img {
+    width: 250px;
+}
+
+[heading] {
+    text-align: center;
+    /* border: solid 2px green; */
+    border-bottom: 0;
+    padding-bottom: 0;
+    margin: 0;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-family: 'Nunito', sans-serif;
+    letter-spacing: 5px;
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+[name-info] {
+    /* border: solid 2px blue; */
+    text-align: center;
+    padding: 0;
+    line-height: 1rem;
+    letter-spacing: 2px;
+    color: black;
 }
 
 nav a {
@@ -29,9 +75,9 @@ nav a {
 }
 
 nav a:hover {
-    color: black  ;
+    color: black;
     text-decoration: none;
-    opacity: 1; 
+    opacity: 1;
     font-weight: 600;
     transition: .1s;
 }
@@ -62,7 +108,7 @@ nav a:hover {
     margin: 0 30%;
 }
 
-.btn{
+.btn {
     border-radius: 20px;
     padding: 3px 9px;
     font-family: 'Nunito', sans-serif;
@@ -72,7 +118,8 @@ nav a:hover {
     opacity: .8;
     background: #F7F7FF;
 }
-.btn:hover{
+
+.btn:hover {
     opacity: 1;
     transition: .1s;
     font-weight: 600;
@@ -95,7 +142,8 @@ nav a:hover {
     text-align: center;
     text-transform: capitalize;
     font-weight: 900;
-    padding: .6rem 1em;;
+    padding: .6rem 1em;
+    ;
     letter-spacing: 4px;
 }
 
@@ -108,7 +156,7 @@ nav a:hover {
     padding-bottom: 1em;
 }
 
-#projects1{
+#projects1 {
     margin-bottom: 1.3em;
 }
 
@@ -120,9 +168,10 @@ nav a:hover {
     text-align: center;
     text-transform: capitalize;
     font-weight: 900;
-    padding: .6rem 1em;;
+    padding: .6rem 1em;
     letter-spacing: 4px;
 }
+
 .carousel-item {
     text-align: center;
 }
@@ -144,7 +193,8 @@ nav a:hover {
     text-align: center;
     text-transform: capitalize;
     font-weight: 900;
-    padding: .6rem 1em;;
+    padding: .6rem 1em;
+    ;
     letter-spacing: 4px;
 }
 
@@ -153,4 +203,3 @@ nav a:hover {
     background-position: center center;
     background-size: cover;
 } */
-
