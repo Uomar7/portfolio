@@ -1,9 +1,16 @@
 * {
     font-family: 'Nunito', sans-serif;
 }
-nav {
+
+/* nav {
     position: static;
+} */
+[my-name] {
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-family: 'Blinker', sans-serif;
 }
+
 header,
 .intro{
     background: url('https://images.wallpaperscraft.com/image/laptop_room_on_the_desk_keyboard_mouse_apple_window_interior_73963_1280x720.jpg');
@@ -38,6 +45,10 @@ nav a:hover {
     font-size: 3.4em;
     font-weight: 800;
     text-align: center;
+}
+
+[name-span] {
+    font-size: 2rem;
 }
 
 #int p {
